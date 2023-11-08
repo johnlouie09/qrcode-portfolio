@@ -2,7 +2,7 @@
     <v-layout class="rounded rounded-md">
         <v-app-bar :title="title">
             <template v-slot:prepend>
-                <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+                <v-app-bar-nav-icon @click="drawer = !drawer" :elevation="2" rounded></v-app-bar-nav-icon>
             </template>
             <template v-slot:append>
                 <v-switch
