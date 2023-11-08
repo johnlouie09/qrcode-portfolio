@@ -1,2 +1,2 @@
 ## Portfolio for Qrcode
-This is for Portfolio activity that will submit tomorrow but the developer is so lazy!!!
+This is for a portfolio activity that will be submitted tomorrow, but the developer is so lazy!
