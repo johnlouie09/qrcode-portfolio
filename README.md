@@ -1,2 +1,2 @@
-## WAD1 | 2023-10-28
+## Portfolio for Qrcode
 This is for Portfolio activity that will submit tomorrow but the developer is so lazy!!!
