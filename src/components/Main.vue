@@ -2,7 +2,6 @@
     <div class="pa-3">
         <home-page  v-if="inHomePage"/>
         <about-page v-else-if="inAboutPage"/>
-        <contact-us-page v-else-if="inContactUsPage"/>
     </div>
 </template>
 
@@ -11,7 +10,6 @@
     import { defineComponent } from 'vue';
     import HomePage      from "../pages/HomePage.vue";
     import AboutPage     from "../pages/AboutPage.vue";
-    import ContactUsPage from "../pages/ContactUsPage.vue";
 
     export default defineComponent({
         name: "Main",
@@ -34,8 +32,7 @@
         /** COMPONENTS */
         components: {
             'home-page'      : HomePage,
-            'about-page'     : AboutPage,
-            'contact-us-page': ContactUsPage
+            'about-page'     : AboutPage
         },
 
         /** COMPUTED PROPERTIES */
@@ -55,14 +52,6 @@
             inAboutPage() {
                 return this.page === 'about';
             },
-
-            /**
-             * Computed page is 'contact' or not.
-             * @returns {boolean}
-             */
-            inContactUsPage() {
-                return this.page === 'contact';
-            }
         }
     })
 </script>
