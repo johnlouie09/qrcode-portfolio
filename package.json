@@ -1,5 +1,5 @@
 {
-  "name": "qrcode-portfolio",
+  "name": "wad1-2023-1028",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mdi/font": "^7.3.67",
     "vue": "^3.3.4",
     "vuetify": "^3.3.23"
   },
