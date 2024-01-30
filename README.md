@@ -1,6 +1,9 @@
 ## Portfolio for Qrcode
 This is for a portfolio activity that will be submitted tomorrow, but the developer is so lazy!
 
+## Development Setup
+Here are the steps to set up the development environment for this project:
+
 1. Download and install
    [XAMPP](https://www.apachefriends.org/download.html)
    and [NodeJS](https://nodejs.org/en/),
